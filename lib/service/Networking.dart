@@ -9,9 +9,7 @@ class NetworkHelper {
   Future getEvents() async {
     http.Response res = await http.get(url);
     if (res.statusCode == 200) {
-      String data = res.body;
-      var decodedData = jsonDecode(data);
-      return decodedData;
+      return jsonDecode(res.body);
     } else {
       print(res.statusCode);
     }
