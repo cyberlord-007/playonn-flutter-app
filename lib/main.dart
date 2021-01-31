@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:play_onn/screens/GalleryScreen.dart';
 import 'package:play_onn/screens/ListScreen.dart';
 import './screens/SplashScreen.dart';
 
