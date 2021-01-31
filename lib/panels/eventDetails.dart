@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:play_onn/screens/GalleryScreen.dart';
 import '../constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,7 +27,7 @@ class eventDetails extends StatelessWidget {
                     height: 40,
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                        color: Colors.blueGrey,
+                        color: Colors.lightBlueAccent,
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20))),
